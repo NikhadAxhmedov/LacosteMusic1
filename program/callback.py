@@ -34,7 +34,7 @@ async def cbstart(_, query: CallbackQuery):
                 ],
                 [
                     InlineKeyboardButton("🕹️ Əmrlər", callback_data="cbcmds"),
-                    InlineKeyboardButton("🧑‍💻 Sahibəm", url=f"https://t.me/{OWNER_NAME}"),
+                    InlineKeyboardButton("🧑‍💻 Sahibim", url=f"https://t.me/{OWNER_NAME}"),
                 ],
                 [
                     InlineKeyboardButton(
@@ -85,7 +85,7 @@ async def cbcmds(_, query: CallbackQuery):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🧑‍💻 Sahibənin əmrləri ", callback_data="cbsudo"),
+                    InlineKeyboardButton("🧑‍💻 Sahibin əmrləri ", callback_data="cbsudo"),
                     InlineKeyboardButton("🕹️ Əsas əmrlər", callback_data="cbbasic")
                 ],[
                     InlineKeyboardButton("🔙  Geri  🔙", callback_data="cbstart")
@@ -160,7 +160,7 @@ Məlumat: Bu əmrləri hərkəs istifadə edə bilər ☑️
 async def cbsudo(_, query: CallbackQuery):
     await query.answer("sudo commands")
     await query.edit_message_text(
-        f"""🧑‍💻 **Sahibənin əmrləri :
+        f"""🧑‍💻 **Sahibin əmrləri :
 
 Qeyd: Bu əmrləri sadəcə bot sahibəsi istifadə edə bilər!
 
