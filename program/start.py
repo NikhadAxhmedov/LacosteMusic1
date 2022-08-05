@@ -59,30 +59,32 @@ async def start_(client: Client, message: Message):
     await message.reply_sticker("CAACAgQAAxkBAAI8bmKIvgnlJyCrq9HIxSvCZCbm5CEjAAIaEAACpvFxHg-Z648-SCRWJAQ")
     await message.reply_text(
         f"""● **Salam 🙋 {message.from_user.mention()} **\n
-● **Mən səsli söhbətlərdə oxuyan musiqi botam 🥰**
+𝙋𝙧𝙚𝙢𝙞𝙪𝙢 𝙈𝙪𝙨𝙞𝙘 {𝙉𝙀𝙒} Sizi Salamlayır👋🏻
 
-● **Hər hansı bir problemlə qarşılaşsanız @LacosteSup qrupumuza gəlib yaza bilərsiniz!**
+ℹ️ Mən səsli söhbətlərdə musiqi oxuya bilən bir botam
 
-● **🕹️ Əmrlər butona basıb bütün əmrləri öyrənin ⬇️**
+✅ Botun istifadə qaydasını öyrənmək üçün /help əmrindən istifadə edin
+
+🆘 Hər hansı problemlə qarşılaşsanız @PremiumSupp qrupumuza gəlib bildirə bilərsiniz!**
 """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "Məni qrupa əlavə et ☺️",
-                        url=f"https://t.me/LacosteMusicRobot?startgroup=true",
+                        "Məni qrupa əlavə et ⚡",
+                        url=f"https://t.me/PremiumMusicxBot?startgroup=true",
                     )
                 ],
                 [
-                    InlineKeyboardButton("🕹️ Əmirlər", callback_data="cbcmds"),
-                    InlineKeyboardButton("🧑‍💻 Sahib", url=f"https://t.me/Axhmedov"),
+                    InlineKeyboardButton("🕹️ Əmrlər", callback_data="cbcmds"),
+                    InlineKeyboardButton("🧑‍💻 Sahib", url=f"https://t.me/Nixhadx"),
                 ],
                 [
                     InlineKeyboardButton(
-                        "📣 Support", url=f"https://t.me/LacosteSup"
+                        "📣 Support", url=f"https://t.me/PremiumSupp"
                     ),
                     InlineKeyboardButton(
-                        "🇦🇿 Rəsmi", url=f"https://t.me/LacosteProject"
+                        "🇦🇿 Game Bot", url=f"https://t.me/SehidlerGameBot"
                     ),
                 ],
             ]
@@ -103,15 +105,15 @@ async def alive(c: Client, message: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("📣 Dəstək", url=f"https://t.me/LacosteProject"),
+                InlineKeyboardButton("📣 Dəstək", url=f"https://t.me/PremiumSupp"),
                 InlineKeyboardButton(
-                    "🇹🇷 Məlumat", url=f"https://t.me/Axhmedov"
+                    "🇹🇷 Məlumat", url=f"https://t.me/Nixhadx"
                 ),
             ]
         ]
     )
 
-    alive = f"**• Salam {message.from_user.mention()} {BOT_NAME}**\n\n🧑🏼‍💻 Sahibəm: [{ALIVE_NAME}](https://t.me/{OWNER_NAME})\n👾 Bot versiyası: `v{__version__}`\n🔥 Pragram versiyası: `{pyrover}`\n🐍 Python versiyası: `{__python_version__}`\n✨ PyTgCalls versiyası: `{pytover.__version__}`\n🆙 İşləmək durumu: `{uptime}`\n\n❤ **Məni qrupa əlavə etdiyiniz üçün təşəkkürlər ☺️**"
+    alive = f"**• Salam {message.from_user.mention()} {BOT_NAME}**\n\n🧑🏼‍💻 Sahibim: [{ALIVE_NAME}](https://t.me/{OWNER_NAME})\n👾 Bot versiyası: `v{__version__}`\n🔥 Pragram versiyası: `{pyrover}`\n🐍 Python versiyası: `{__python_version__}`\n✨ PyTgCalls versiyası: `{pytover.__version__}`\n🆙 İşləmək durumu: `{uptime}`\n\n❤ **Məni qrupa əlavə etdiyiniz üçün təşəkkürlər 🦅**"
 
     await c.send_photo(
         chat_id,
@@ -170,11 +172,11 @@ async def new_chat(c: Client, m: Message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("📣 Məlumat", url=f"https://t.me/LacosteProject"),
-                            InlineKeyboardButton("🇹🇷 Dəstək", url=f"https://t.me/LacosteSup")
+                            InlineKeyboardButton("📣 Məlumat", url=f"https://t.me/PremiumSupp"),
+                            InlineKeyboardButton("🇹🇷 Dəstək", url=f"https://t.me/Nixhadx")
                         ],
                         [
-                            InlineKeyboardButton("🎙 Asistan", url=f"https://t.me/LacosteMusicAsistant")
+                            InlineKeyboardButton("🎙 Asistan", url=f"https://t.me/PremiumMusicAsistant")
                         ]
                     ]
                 )
