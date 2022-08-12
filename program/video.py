@@ -103,7 +103,7 @@ async def vplay(c: Client, m: Message):
             invitelink = await c.export_chat_invite_link(chat_id)
             if invitelink.startswith("https://t.me/+"):
                 invitelink = invitelink.replace(
-                    "https://t.me/+", "https://t.me/LacosteSup/"
+                    "https://t.me/+", "https://t.me/DaintyChat/"
                 )
             await user.join_chat(invitelink)
     except UserNotParticipant:
@@ -111,7 +111,7 @@ async def vplay(c: Client, m: Message):
             invitelink = await c.export_chat_invite_link(chat_id)
             if invitelink.startswith("https://t.me/+"):
                 invitelink = invitelink.replace(
-                    "https://t.me/+", "https://t.me/LacosteSup/"
+                    "https://t.me/+", "https://t.me/DaintyChat/"
                 )
             await user.join_chat(invitelink)
         except UserAlreadyParticipant:
