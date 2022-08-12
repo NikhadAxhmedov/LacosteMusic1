@@ -65,14 +65,14 @@ async def start_(client: Client, message: Message):
 
 ✅ Botun istifadə qaydasını öyrənmək üçün /help əmrindən istifadə edin
 
-🆘 Hər hansı problemlə qarşılaşsanız @PremiumSupp qrupumuza gəlib bildirə bilərsiniz!**
+🆘 Hər hansı problemlə qarşılaşsanız @DaintyChat qrupumuza gəlib bildirə bilərsiniz!**
 """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
                         "Məni qrupa əlavə et ⚡",
-                        url=f"https://t.me/PremiumMusicxBot?startgroup=true",
+                        url=f"https://t.me/DaintyMusicBot?startgroup=true",
                     )
                 ],
                 [
@@ -81,10 +81,10 @@ async def start_(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "📣 Support", url=f"https://t.me/PremiumSupp"
+                        "📣 Qrup", url=f"https://t.me/DaintyChat"
                     ),
                     InlineKeyboardButton(
-                        "🇦🇿 Game Bot", url=f"https://t.me/SehidlerGameBot"
+                        "🇦🇿 Rəsmi Kanal", url=f"https://t.me/DaintyResmi"
                     ),
                 ],
             ]
@@ -105,7 +105,7 @@ async def alive(c: Client, message: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("📣 Dəstək", url=f"https://t.me/PremiumSupp"),
+                InlineKeyboardButton("📣 Dəstək", url=f"https://t.me/DaintyChat"),
                 InlineKeyboardButton(
                     "🇹🇷 Məlumat", url=f"https://t.me/Nixhadx"
                 ),
@@ -166,17 +166,17 @@ async def new_chat(c: Client, m: Message):
     for member in m.new_chat_members:
         if member.id == bot_id:
             return await m.reply(
-                "**❤️ Məni qrupa əlavə etdiyiniz üçün təşəkkürlər ☺️!**\n\n"
+                "**🌴 Məni qrupa əlavə etdiyiniz üçün təşəkkürlər ⚡!**\n\n"
                 "**Məni qrupda admin et sonra  /katil əmr ilə Asistanı qrupa dəvət edin . . !\n\n**"
                 "**Bütün bunları etdikdən sonra  /reload Əmri istifadə edin və hərşey hazırdı ! Botu istifadə edə bilərsiniz 🐊**",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("📣 Məlumat", url=f"https://t.me/PremiumSupp"),
+                            InlineKeyboardButton("📣 Məlumat", url=f"https://t.me/DaintyChat"),
                             InlineKeyboardButton("🇹🇷 Dəstək", url=f"https://t.me/Nixhadx")
                         ],
                         [
-                            InlineKeyboardButton("🎙 Asistan", url=f"https://t.me/PremiumMusicAsistant")
+                            InlineKeyboardButton("🎙 Asistan", url=f"https://t.me/DaintyMusicAsistant")
                         ]
                     ]
                 )
