@@ -19,9 +19,9 @@ async def cbstart(_, query: CallbackQuery):
     await query.answer("home start")
     await query.edit_message_text(
         f"""● **Salam [{query.message.chat.first_name}](tg://user?id={query.message.chat.id}) **\n
-● **Mən səsli söhbətlərdə musiqi botam ☺️**
+● **Mən səsli söhbətlərdə musiqi botam 🎶**
 
-● **Hər hansı problemlə qarşılaşsanız @karabakhteamm qrupumuza gəlib bildirə bilərsiniz!**
+● **Hər hansı problemlə qarşılaşsanız @DaintyChat qrupumuza gəlib bildirə bilərsiniz!**
 
 ● **📚 Əmrlər butonuna klikləyib bütün əmrləri öyrənin ⬇️**""",
         reply_markup=InlineKeyboardMarkup(
@@ -117,6 +117,8 @@ async def cbbasic(_, query: CallbackQuery):
 
 » /list => Sonrakı musiqi siyahını öyrən.
 
+» /reklam => Bot olduğu bütün qruplarda reklam edər 📢
+
 Məlumat: Bu əmrləri hərkəs istifadə edə bilər ☑️
 
 **""",
@@ -147,6 +149,8 @@ async def cbadmin(_, query: CallbackQuery):
 » /playlist => Musiqi playlistə əlavə et.
 
 » /list => Sonrakı musiqi siyahını öyrən.
+
+» /reklam => Bot olduğu bütün qruplarda reklam edər 📢
 
 Məlumat: Bu əmrləri hərkəs istifadə edə bilər ☑️
 
