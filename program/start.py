@@ -77,14 +77,14 @@ async def start_(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton("🕹️ Əmrlər", callback_data="cbcmds"),
-                    InlineKeyboardButton("🧑‍💻 Sahib", url=f"https://t.me/Nixhadx"),
+                    InlineKeyboardButton("🧑‍💻 Sahib", url=f"https://t.me/NixhadSovetski"),
                 ],
                 [
                     InlineKeyboardButton(
                         "📣 Qrup", url=f"https://t.me/DaintyChat"
                     ),
                     InlineKeyboardButton(
-                        "🇦🇿 Rəsmi Kanal", url=f"https://t.me/DaintyResmi"
+                        "🇦🇿 Rəsmi Kanal", url=f"https://t.me/DaintyBots"
                     ),
                 ],
             ]
@@ -107,7 +107,7 @@ async def alive(c: Client, message: Message):
             [
                 InlineKeyboardButton("📣 Dəstək", url=f"https://t.me/DaintyChat"),
                 InlineKeyboardButton(
-                    "🇹🇷 Məlumat", url=f"https://t.me/Nixhadx"
+                    "🇹🇷 Məlumat", url=f"https://t.me/NixhadSovetski"
                 ),
             ]
         ]
@@ -167,13 +167,13 @@ async def new_chat(c: Client, m: Message):
         if member.id == bot_id:
             return await m.reply(
                 "**🌴 Məni qrupa əlavə etdiyiniz üçün təşəkkürlər ⚡!**\n\n"
-                "**Məni qrupda admin et sonra  /katil əmr ilə Asistanı qrupa dəvət edin . . !\n\n**"
+                "**Məni qrupda admin et sonra  /qatıl əmr ilə Asistanı qrupa dəvət edin . . !\n\n**"
                 "**Bütün bunları etdikdən sonra  /reload Əmri istifadə edin və hərşey hazırdı ! Botu istifadə edə bilərsiniz 🐊**",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton("📣 Məlumat", url=f"https://t.me/DaintyChat"),
-                            InlineKeyboardButton("🇹🇷 Dəstək", url=f"https://t.me/Nixhadx")
+                            InlineKeyboardButton("🇹🇷 Dəstək", url=f"https://t.me/NixhadSovetski")
                         ],
                         [
                             InlineKeyboardButton("🎙 Asistan", url=f"https://t.me/DaintyMusicAsistant")
