@@ -59,13 +59,13 @@ async def start_(client: Client, message: Message):
     await message.reply_sticker("CAACAgQAAxkBAAI8bmKIvgnlJyCrq9HIxSvCZCbm5CEjAAIaEAACpvFxHg-Z648-SCRWJAQ")
     await message.reply_text(
         f"""● **Salam 🙋 {message.from_user.mention()} **\n
-𝙋𝙧𝙚𝙢𝙞𝙪𝙢 𝙈𝙪𝙨𝙞𝙘 {𝙉𝙀𝙒} Sizi Salamlayır👋🏻
+Dainty Music Sizi Salamlayır👋🏻
 
 ℹ️ Mən səsli söhbətlərdə musiqi oxuya bilən bir botam
 
 ✅ Botun istifadə qaydasını öyrənmək üçün /help əmrindən istifadə edin
 
-🆘 Hər hansı problemlə qarşılaşsanız @DaintyChat qrupumuza gəlib bildirə bilərsiniz!**
+🆘 Hər hansı problemlə qarşılaşsanız @SovetskiChatt qrupumuza gəlib bildirə bilərsiniz!**
 """,
         reply_markup=InlineKeyboardMarkup(
             [
