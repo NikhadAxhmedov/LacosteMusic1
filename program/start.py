@@ -56,7 +56,7 @@ async def _human_time_duration(seconds):
     command(["start", f"start@{BOT_USERNAME}"]) & filters.private & ~filters.edited
 )
 async def start_(client: Client, message: Message):
-    await message.reply_sticker("CAACAgQAAxkBAAI8bmKIvgnlJyCrq9HIxSvCZCbm5CEjAAIaEAACpvFxHg-Z648-SCRWJAQ")
+    await message.reply_sticker("CAACAgIAAxkBAAFQ40ZjF2VkjL-E0qoyWovAt1ZkjyF-SAACegEAAhAabSKcnbdITu9y3ikE")
     await message.reply_text(
         f"""● **Salam 🙋 {message.from_user.mention()} **\n
 Dainty Music Sizi Salamlayır👋🏻
