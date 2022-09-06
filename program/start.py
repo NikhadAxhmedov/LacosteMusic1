@@ -176,7 +176,7 @@ async def new_chat(c: Client, m: Message):
                             InlineKeyboardButton("🇹🇷 Dəstək", url=f"https://t.me/Nixhadj")
                         ],
                         [
-                            InlineKeyboardButton("🎙 Asistan", url=f"https://t.me/DaintyMusicAsistant")
+                            InlineKeyboardButton("🎙 Asistan", url=f"https://t.me/NaathanielMusicAsistant")
                         ]
                     ]
                 )
