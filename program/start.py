@@ -65,26 +65,26 @@ Dainty Music Sizi Salamlayır👋🏻
 
 ✅ Botun istifadə qaydasını öyrənmək üçün /help əmrindən istifadə edin
 
-🆘 Hər hansı problemlə qarşılaşsanız @SovetskiChatt qrupumuza gəlib bildirə bilərsiniz!**
+🆘 Hər hansı problemlə qarşılaşsanız @Nixhadj bildirə bilərsiniz!**
 """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
                         "Məni qrupa əlavə et ⚡",
-                        url=f"https://t.me/DaintyMusicBot?startgroup=true",
+                        url=f"https://t.me/NaathanielMusicBot?startgroup=true",
                     )
                 ],
                 [
                     InlineKeyboardButton("🕹️ Əmrlər", callback_data="cbcmds"),
-                    InlineKeyboardButton("🧑‍💻 Sahib", url=f"https://t.me/NixhadSovetski"),
+                    InlineKeyboardButton("🧑‍💻 Sahib", url=f"https://t.me/Nixhadj"),
                 ],
                 [
                     InlineKeyboardButton(
-                        "📣 Qrup", url=f"https://t.me/DaintyChat"
+                        "📣 Reklam Qrupu", url=f"https://t.me/RavenReklam"
                     ),
                     InlineKeyboardButton(
-                        "🇦🇿 Rəsmi Kanal", url=f"https://t.me/DaintyBots"
+                        "🌴 Kanal", url=f"https://t.me/Naathaniel"
                     ),
                 ],
             ]
@@ -107,7 +107,7 @@ async def alive(c: Client, message: Message):
             [
                 InlineKeyboardButton("📣 Dəstək", url=f"https://t.me/DaintyChat"),
                 InlineKeyboardButton(
-                    "🇹🇷 Məlumat", url=f"https://t.me/NixhadSovetski"
+                    "🇹🇷 Məlumat", url=f"https://t.me/Nixhadj"
                 ),
             ]
         ]
@@ -172,8 +172,8 @@ async def new_chat(c: Client, m: Message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("📣 Məlumat", url=f"https://t.me/DaintyChat"),
-                            InlineKeyboardButton("🇹🇷 Dəstək", url=f"https://t.me/NixhadSovetski")
+                            InlineKeyboardButton("📣 Məlumat", url=f"https://t.me/RavenReklam"),
+                            InlineKeyboardButton("🇹🇷 Dəstək", url=f"https://t.me/Nixhadj")
                         ],
                         [
                             InlineKeyboardButton("🎙 Asistan", url=f"https://t.me/DaintyMusicAsistant")
